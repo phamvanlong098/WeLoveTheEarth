@@ -1,0 +1,77 @@
+/* PC */
+@media (min-width: 1024px) {
+    .main-paragraph, 
+    .sub-paragraph {
+        min-height: 374px;
+       
+    }
+    .content__1-img,
+    .content__2-img,
+    .content__3-img,
+    .content__4-img {
+        background-position: center;
+    }
+}
+
+@media (max-width: 1023px) {
+    #content p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+    #content .main-paragraph .separate-top {
+        display: none;
+    }
+}
+
+
+@media (max-width: 739px) {
+    #header {
+        height: 52px;
+        box-shadow: none;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    #menu {
+        display: inline-block;
+        color: var(--main-color);
+        padding: 0px 16px;  
+        height: 52px;
+    }
+
+    #slider {
+        margin-top: 40px;
+    }
+
+    #content .main-paragraph .main-slogan {
+        text-align: left ;
+        
+    }
+
+    #content .main-paragraph .main-content {
+        position: relative;
+    }
+
+    #content .main-paragraph .separate-right {
+        display: none;
+    }
+
+    #content {
+        margin: 44px 24px;
+    }
+
+    .content__1-img,
+    .content__2-img,
+    .content__3-img,
+    .content__4-img {
+        height: 162px;
+    }
+}
