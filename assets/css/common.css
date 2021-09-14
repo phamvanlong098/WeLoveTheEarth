@@ -6,6 +6,15 @@
 
 }
 
+.--padding-right-32{
+    padding-right: 32px !important;
+}
+
+.--padding-left-32{
+    padding-left: 32px !important;
+}
+
+
 .btn {
     padding: 6px 20px;
     background-color: var(--main-color) !important ;
