@@ -188,12 +188,12 @@
 .row > .col {
     margin-top: 8px;
     margin-bottom: 8px;
-      
+    
 }
 
 
 #content .btn {
-    width: 132px;
+    min-width: 132px;
     float: right;
     position: absolute;
     right: 0;
