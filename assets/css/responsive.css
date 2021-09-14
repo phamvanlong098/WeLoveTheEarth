@@ -13,10 +13,17 @@
     }
 }
 
+
+/* tablet + mobile */
 @media (max-width: 1023px) {
     #content p {
         font-size: 14px;
         line-height: 16px;
+    }
+
+
+    #content > .row > .col {
+        padding-right: 0px;
     }
 }
 
@@ -68,9 +75,6 @@
         display: none;
     }
 
-    #content > .row > .col {
-        padding-right: 0px;
-    }
 
     #content {
         margin: 44px 24px;
